@@ -1,0 +1,21 @@
+name: AfkRewardsPlus
+version: '${project.version}'
+main: net.wavecraft.afkrewardsplus.AfkRewardsPlus
+api-version: 1.19
+authors: [ OhSoGamer ]
+description: A powerful plugin that rewards users for going AFK.
+website: wavecraft.net
+permissions:
+  afk.command:
+    description: Permission to use the AFK Rewards Plus main command
+    default: true
+  afk.wand:
+    description: Permission to summon the AFK Wand
+    default: op
+commands:
+  afk:
+    description: AFK command
+    aliases: [ar, afkrewards]
+  afkrewardsplus:
+    description: AFK Rewards Plus command
+    aliases: [arp, afkplus]

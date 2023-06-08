@@ -1,0 +1,35 @@
+prefix: '&6[AFKRewardsPlus]'
+
+wand-item: GOLDEN_AXE
+
+warpcoords:
+  x: 20
+  y: 168
+  z: -6
+  pitch: 43.199776
+  yaw: 78.590515
+  rotation: 168.0
+
+afk_coordinates:
+  - -5.761384014984577,147.50563415004845,14.969198840702179
+  - 42.450264672762316,170.74996636969524,-18.847015923616514
+
+rewards:
+  reward1:
+    time: 60
+    title: Reward 1
+    color: GREEN
+    style: SOLID
+    message: Thanks for being AFK! We have given you one diamond
+    commands:
+      - give @p netherite_ingot 1
+      - give @p diamond 5
+  reward2:
+    time: 120
+    title: Reward 2
+    color: RED
+    style: SEGMENTED_10
+    message: Thanks for being AFK! We have given you speed boost!
+    commands:
+      - give @p diamond 1
+      - effect give @p minecraft:speed 10 10
